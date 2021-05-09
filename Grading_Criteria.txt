@@ -1,0 +1,20 @@
+Grading criteria - Graphs (courses listed in topological order)
+
+15 pts - Code correctly reads from the posted files.   
+  All 15 points will be lost if the 'easy' files are used (the ones that have the number of words at the beginning of each line - see details about this in the homework text).  
+
+10 pts - Correct mapping vertex number to course name is printed
+25 pts - Correct edge information is created and printed (as either an adjacency matrix or adjacency list). The direction of each edge must be correct. Note that you do not need to draw an edge. The direction is inferred from your printing of the adjacency matrix or adjacency list. 
+ 
+10 pts - program correctly identifies if there is a cycle and prints a message about that and it does NOT attempt to print the courses in topological order.
+
+20 pts - Courses are printed in correct topological order. It must show both the COURSE (e.g. c100 below) and the VERTEX number (e.g. vertex 0 below).  
+"
+1. - c100 (corresponds to graph vertex 0)
+2. - c200 (corresponds to graph vertex 2)
+3. - c300 (corresponds to graph vertex 1)
+"
+
+6 pts - Test case that covers a special case is provided and a brief and clear explanation of what special case it is (e.g. why is it special).
+
+14 pts - No Valgring errors. If any memory-related error is reported (including invalid read or invalid write) all points are lost. If "conditional jump depends on uninitilized variable" errors are present but no other memory related errors, 10 out of the 14 points will be lost.
